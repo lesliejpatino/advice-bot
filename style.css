@@ -6,10 +6,6 @@
     --inner-bg: #cedbdd;
 }
 
-/* * {
-    box-sizing: border-box;
-} */
-
 .advice-bot{
     height: 400px;
     display: flex;
@@ -159,4 +155,23 @@
     transform: translateX(-50%);
     background: var(--tongue-color);
     border-radius: 100%;
+}
+
+
+#advice-btn {
+    background-color: red;
+    border-radius: 1em;
+}
+
+#more-advice {
+    border-radius: 1em;
+}
+
+#response-div {
+    display: none;
+}
+
+.footer {
+    bottom: 0;
+    background-color: rgb(253, 220, 109);
 }

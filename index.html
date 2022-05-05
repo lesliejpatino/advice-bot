@@ -16,34 +16,50 @@
 <body>
 
     <header>
-        <h1> Greetings, Earthling! </h1>
-        <h2> Advice-bot at your service <h2>
+        <h1 class="text-center mt-5"> Greetings, Earthling! </h1>
+        <h3 class="text-center mb-5"> Advice-bot at your service <h3>
     </header>
 
-    <div class="advice-bot">
-        <div class="circle-bg">
-            <div class="robot-ear-left"></div>
-            <div class="robot-head">
-                <div class="robot-face">
-                    <div class="eyes-left"></div>
-                    <div class="eyes-right"></div>
-                    <div class="mouth"></div>
+    <div class="row justify-content-center">
+        <div class="robot-div border col-lg-5 col-md-5 col-sm-9">
+            <div class="advice-bot">
+                <div class="circle-bg">
+                    <div class="robot-ear-left"></div>
+                    <div class="robot-head">
+                        <div class="robot-face">
+                            <div class="eyes-left"></div>
+                            <div class="eyes-right"></div>
+                            <div class="mouth"></div>
+                        </div>
+                    </div>
+                    <div class="robot-ear-right"></div>
+                    <div class="robot-body"></div>
                 </div>
             </div>
-            <div class="robot-ear-right"></div>
-            <div class="robot-body"></div>
         </div>
+
+
+        <div id="robot-intro" class="border col-lg-6 col-md-5 col-sm-6 text-center">
+            <p class="description py-4">If you're in need of some quick and (maybe) wise advice, I'm your bot!</p>
+            <button id="advice-btn" class="py-1 px-2">
+                <h3>Advice, please!</h3>
+            </button>
+        </div>
+
+        <div id="response-div" class="border col-lg-6 col-md-5 col-sm-6 text-center">
+            <h3 class="col-10 m-5">"<span id="robot-advice"> </span> "</h3>
+            <button id="more-advice" >
+                <p class="pt-2">More advice please!</p>
+            </button>
+        </div>
+
+        
     </div>
 
-
-    <div>
-        <p id="description">If you're in need of some quick and (maybe) wise advice, I'm your bot!</p>
-        <button id="advice-btn">
-            Advice, please!
-        </button>
-    </div>
-
-    <style src="./script.js"></style>
+    <footer class="footer mt-4">
+        created by leslie patino  
+    </footer>
+    <script type="text/javascript" src="./script.js"> </script>
 </body>
 
 </html>
