@@ -1,6 +1,3 @@
-/* font-family: 'DM Serif Display', serif;
-font-family: 'Koulen', cursive; */
-
 :root {
     --background: #ffffff;
     --outline-color: #061924;
@@ -11,10 +8,8 @@ font-family: 'Koulen', cursive; */
     --mustard: #ffc966;
 }
 
-/* #9fd9ae */
-
 body {
-    background-image: url(./Wireframes.png);
+    background-image: url(./assets/images/bg.png);
     background-size: cover;
 }
 
@@ -143,6 +138,7 @@ body {
 }
 
 /* Body */
+
 .robot-body {
   height: 50px;
   width: 100px;
@@ -155,27 +151,26 @@ body {
   border-radius: 25px 25px 30px 30px;
 }
 
-
-.robot-face::hover {
+.robot-face:hover {
     top: 40px !important;
 }
 
-.eyes::hover {
+.eyes:hover {
     top: 30px !important;
 }
 
-.mouth::hover {
-    background: var--(outline-color);
+.mouth:hover {
+    background: var(--outline-color);
     border: none;
     clip-path: polygon(0% 30%, 100% 30%, 100% 100%, 0% 100%);
 }
 
-.mouth::hover::after {
+.mouth:hover:after {
     content: "";
     position: absolute;
     height: 80%;
     width: 80%;
-    bottom: -30%;
+    bottom: 25%;
     left: 50%;
     transform: translateX(-50%);
     background: var(--tongue-color);
@@ -202,21 +197,4 @@ body {
 .your-advice {
     background-color: red;
     border-radius: .7em;
-}
-
-footer {
-    position: absolute;
-    color: red;
-    /* background-color: var(--mustard); */
-    width: 100%;
-    bottom: 0;
-}
-
-a {
-    text-decoration: none;
-    color: inherit;
-}
-.social {
-    width: 2%;
-    height: 2%;
 }

@@ -22,6 +22,7 @@ const getAdvice = function() {
         })
 };
 
+
 const moreAdvice = function() {
     const adviceUrl = 'https://api.adviceslip.com/advice';
 
@@ -33,8 +34,6 @@ const moreAdvice = function() {
         .then(function (data) {
             // data.slip.advice = 1 piece of advice
             console.log(data.slip.advice);
-            // robotIntro.style.display= "none"
-            // responseDiv.style.display= "block";
             robotAdvice.textContent = data.slip.advice
         })
 
@@ -43,6 +42,3 @@ const moreAdvice = function() {
 // addEventListener method is only available on an individual element
 adviceBtn.addEventListener('click', getAdvice)
 moreAdviceBtn.addEventListener('click', moreAdvice)
-
-
-console.log('testing')
