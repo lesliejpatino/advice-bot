@@ -12,7 +12,9 @@ This single page application uses the Advice Slip API to fetch random pieces of 
 # Demo & Site Link
 * [Advice Bot - Live Site](https://lesliejpatino.github.io/advice-bot/)
 <br />
-* The Robot was made entirely through CSS with the help of [this](https://dev.to/akhilarjun/css-art-let-s-create-a-cute-robot-part-1-3ng5) tutorial.
+* The Robot was made entirely through CSS with the help of [this](https://dev.to/akhilarjun/css-art-let-s-create-a-cute-robot-part-1-3ng5) tutorial. 
+<br />
+
 ![robotgif](./assets/images/advicebot.gif) 
 ![deployedsite](./assets/images/deployedsite.png)
 
